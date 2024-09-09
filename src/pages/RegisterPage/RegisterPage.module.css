@@ -1,0 +1,18 @@
+.RegisterPageCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RegisterForm {
+  margin-top: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.RegisterForm > label > input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}

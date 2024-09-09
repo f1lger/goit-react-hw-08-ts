@@ -1,0 +1,13 @@
+.LoginForm {
+  margin-top: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.LoginForm > label > input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
